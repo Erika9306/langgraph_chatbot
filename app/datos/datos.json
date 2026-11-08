@@ -1,0 +1,36 @@
+{
+  "tickets": {
+    "T-100": {
+      "estado": "en curso",
+      "asunto": "Error al acceder",
+      "articulo": "A-10",
+      "actualizacion": "Soporte está revisando el acceso. No hay fecha de resolución confirmada."
+    },
+    "T-200": {
+      "estado": "resuelto",
+      "asunto": "Factura duplicada",
+      "articulo": "A-20",
+      "actualizacion": "Se ha anulado el duplicado. La factura correcta sigue disponible."
+    },
+    "T-300": {
+      "estado": "pendiente de información",
+      "asunto": "Exportación vacía",
+      "articulo": "A-30",
+      "actualizacion": "Falta indicar el intervalo de fechas usado."
+    }
+  },
+  "knowledge_base": {
+    "A-10": {
+      "titulo": "Recuperar acceso",
+      "texto": "Usa Recuperar contraseña en la pantalla de acceso. Revisa también la carpeta de spam. No compartas tu contraseña con soporte."
+    },
+    "A-20": {
+      "titulo": "Consultar facturas",
+      "texto": "Entra en Ajustes > Facturación y descarga la factura del periodo. Si ves un duplicado, indica el número de factura a soporte."
+    },
+    "A-30": {
+      "titulo": "Exportar tareas",
+      "texto": "Selecciona un intervalo de fechas con tareas, elimina filtros innecesarios y pulsa Exportar CSV."
+    }
+  }
+}
